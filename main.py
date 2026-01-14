@@ -150,12 +150,12 @@ if __name__ == '__main__':
                 np.save('./data/AmazonBeauty/Beauty_HSD_item_id', i_g_embeddings_id)
                 u_g_embeddings_txt = u_g_embeddings_txt.detach().cpu().numpy()
                 i_g_embeddings_txt = i_g_embeddings_txt.detach().cpu().numpy()
-                np.save('./data/AmazonBeautyO/Beauty_HSD_user_txt', u_g_embeddings_txt)
-                np.save('./data/AmazonBeautyO/Beauty_HSD_item_txt', i_g_embeddings_txt)
+                np.save('./data/AmazonBeauty/Beauty_HSD_user_txt', u_g_embeddings_txt)
+                np.save('./data/AmazonBeauty/Beauty_HSD_item_txt', i_g_embeddings_txt)
                 u_g_embeddings_img = u_g_embeddings_img.detach().cpu().numpy()
                 i_g_embeddings_img = i_g_embeddings_img.detach().cpu().numpy()
-                np.save('./data/AmazonBeautyO/Beauty_HSD_user_img', u_g_embeddings_img)
-                np.save('./data/AmazonBeautyO/Beauty_HSD_item_img', i_g_embeddings_img)
+                np.save('./data/AmazonBeauty/Beauty_HSD_user_img', u_g_embeddings_img)
+                np.save('./data/AmazonBeauty/Beauty_HSD_item_img', i_g_embeddings_img)
                 print('Save Successful!!')
 
                 best_recall = test_ret['recall'][-1]
