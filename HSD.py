@@ -48,7 +48,7 @@ class HSD(nn.Module):
         self.user_emb_img = nn.init.xavier_uniform_(torch.rand((self.n_users, self.embed_dim), requires_grad=True)).cuda()
         self.user_emb_txt = nn.init.xavier_uniform_(torch.rand((self.n_users, self.embed_dim), requires_grad=True)).cuda()
 
-        self.trans_i = nn.Linear(768, self.embed_dim)
+        self.trans_i = nn.Linear(4096, self.embed_dim)
         self.trans_t = nn.Linear(384, self.embed_dim)
 
         self.all_h_list = config['all_h_list']
