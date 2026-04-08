@@ -19,9 +19,9 @@ If you find this work helpful to your research, please kindly consider citing ou
   journal={IEEE Transactions on Multimedia}, 
   title={Hierarchy-Aware Multimodal Distillation for Recommendation}, 
   year={2026},
-  volume={},
+  volume={28},
   number={},
-  pages={1-13}
+  pages={2279-2290}
   }
 ```
 
